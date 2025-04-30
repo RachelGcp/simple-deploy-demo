@@ -5,8 +5,8 @@ function App() {
   const [color, setColor] = useState('black');
 
   const handleClick = () => {
-    setText('You clicked me! 🎉');
-    setColor(color === 'black' ? 'red' : 'yellow');
+    setText('I made chane now! 🎉');
+    setColor(color === 'black' ? 'pink' : 'blue');
   };
 
   return (
