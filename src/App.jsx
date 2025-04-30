@@ -6,7 +6,7 @@ function App() {
 
   const handleClick = () => {
     setText('You clicked me! 🎉');
-    setColor(color === 'black' ? 'yellow' : 'pink');
+    setColor(color === 'black' ? 'red' : 'green');
   };
 
   return (
