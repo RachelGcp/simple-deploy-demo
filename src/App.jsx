@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function App() {
-  const [text, setText] = useState('Hello world With Change!');
+  const [text, setText] = useState('Happy Purim!');
   const [color, setColor] = useState('black');
 
   const handleClick = () => {
